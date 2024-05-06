@@ -1,0 +1,6 @@
+#!/bin/bash
+
+make
+./filter &
+./ReadMicWavs in_to_out input_ /home/mxgz/Documents/Maestria/Diversion/Audio/OverlapAndAdd/vivaldiShort.wav 1
+killall filter
